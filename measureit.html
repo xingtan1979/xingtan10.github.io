@@ -216,7 +216,7 @@
 
 	let KCGeometry = new THREE.PlaneBufferGeometry(1,1, 4,4);
 	let loaderKC = new THREE.TextureLoader();
-	let KCTexture = loaderKC.load( 'images/KC.jpg' );
+	let KCTexture = loaderKC.load( '/images/KC.jpg' );
 	let KCMaterial = new THREE.MeshBasicMaterial( { map: KCTexture } );
 	
 	KC = new THREE.Mesh( KCGeometry, KCMaterial );
